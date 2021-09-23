@@ -126,6 +126,32 @@ div {
   }
 }
 
-.ex-12-top-white {
-  animation: moveWhite 2s linear;
+.ex-12-button:hover .ex-12-top-white {
+  animation: moveWhiteTop 2s linear;
+}
+
+@keyframes moveWhiteTop {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: calc(100% - 60px);
+  }
+  100% {
+    left: 0%;
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: moveWhiteBottom 2s linear;
+}
+@keyframes moveWhiteBottom {
+  0% {
+    right: 0%;
+  }
+  50% {
+    right: calc(100% - 60px);
+  }
+  100% {
+    right: 0%;
+  }
 }
