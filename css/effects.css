@@ -125,3 +125,7 @@ div {
     transform: rotate(0);
   }
 }
+
+.ex-12-top-white {
+  animation: moveWhite 2s linear;
+}
