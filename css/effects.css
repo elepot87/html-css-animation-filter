@@ -93,3 +93,20 @@ The transition-timing-function property can have the following values:
   filter: grayscale(0.6) sepia(0.5);
   transform: scale(1.2);
 }
+
+/* Animazioni 
+
+div {
+  animation: example 5s linear 2s infinite alternate;
+}
+*/
+
+.ex-10-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(1turn);
+  }
+}
