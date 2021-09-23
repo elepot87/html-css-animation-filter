@@ -157,7 +157,7 @@ div {
 }
 
 .ex-13-button:hover .ex-13-top-white {
-  animation: moveWhiteTopTotal 5s linear;
+  animation: moveWhiteTopTotal 2s linear;
 }
 
 @keyframes moveWhiteTopTotal {
@@ -193,7 +193,7 @@ div {
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-  animation: moveWhiteBottomTotal 5s linear;
+  animation: moveWhiteBottomTotal 2s linear;
 }
 
 @keyframes moveWhiteBottomTotal {
