@@ -74,3 +74,12 @@ The transition-timing-function property can have the following values:
 .ex-7-img:hover {
   filter: sepia(0.6) grayscale(0.7);
 }
+
+.ex-8-img {
+  transition: 1s;
+}
+
+.ex-8-img:hover {
+  border-radius: 20px;
+  filter: grayscale(0.6) sepia(0.5);
+}
