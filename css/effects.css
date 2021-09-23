@@ -110,3 +110,18 @@ div {
     transform: rotate(1turn);
   }
 }
+
+.ex-11-icon:hover {
+  animation: spinLittle 2s linear;
+}
+@keyframes spinLittle {
+  0% {
+    transform: rotate(0);
+  }
+  90% {
+    transform: rotate(315deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
