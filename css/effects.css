@@ -52,7 +52,7 @@ The transition-timing-function property can have the following values:
 }
 
 .ex-5-square {
-  transition: 1s;
+  transition: transform 1s;
 }
 
 .ex-5-square:hover {
@@ -61,4 +61,16 @@ The transition-timing-function property can have the following values:
 
 .ex-5-square:active {
   transform: scale(0.5);
+}
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+.ex-7-img {
+  transition: 1s;
+}
+
+.ex-7-img:hover {
+  filter: sepia(0.6) grayscale(0.7);
 }
