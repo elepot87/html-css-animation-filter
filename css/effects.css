@@ -107,7 +107,7 @@ div {
 
 @keyframes spin {
   0% {
-    transform: rotate(1turn);
+    transform: rotate(400grad);
   }
 }
 
